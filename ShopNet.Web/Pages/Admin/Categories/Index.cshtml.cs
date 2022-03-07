@@ -1,14 +1,12 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using ShopNet.Web.Data;
-using ShopNet.Web.Model;
+using ShopNet.DataAccess.Data;
+using ShopNet.Domain;
 
-namespace ShopNet.Web.Pages.Categories
+namespace ShopNet.Web.Pages.Admin.Categories
 {
     public class IndexModel : PageModel
     {

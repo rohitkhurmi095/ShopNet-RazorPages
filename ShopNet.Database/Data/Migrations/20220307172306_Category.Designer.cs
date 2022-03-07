@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShopNet.Web.Data;
+using ShopNet.DataAccess.Data;
 
-namespace ShopNet.Web.Data.Migrations
+namespace ShopNet.Database.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220306124052_UpdatedCategoryModel")]
-    partial class UpdatedCategoryModel
+    [Migration("20220307172306_Category")]
+    partial class Category
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,7 +20,7 @@ namespace ShopNet.Web.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("ShopNet.Web.Model.Category", b =>
+            modelBuilder.Entity("ShopNet.Domain.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -28,6 +28,7 @@ namespace ShopNet.Web.Data.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

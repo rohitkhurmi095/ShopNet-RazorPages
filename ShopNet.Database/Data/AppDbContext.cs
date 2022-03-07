@@ -1,11 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ShopNet.Web.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using ShopNet.Domain;
 
-namespace ShopNet.Web.Data
+namespace ShopNet.DataAccess.Data
 {
     //DbContext: for querying Database
     //pass DbContext options -> DbContext

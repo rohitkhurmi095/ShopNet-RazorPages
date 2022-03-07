@@ -1,13 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopNet.Web.Data;
-using ShopNet.Web.Model;
+using ShopNet.DataAccess.Data;
+using ShopNet.Domain;
 
-namespace ShopNet.Web.Pages.Categories
+namespace ShopNet.Web.Pages.Admin.Categories
 {
     //[BindProperties]: bind all the properties from controller -> UI
     //[BindProperty]: bind individual property from controller -> UI
