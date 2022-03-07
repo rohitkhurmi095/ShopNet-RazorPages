@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopNet.Web", "ShopNet.Web\ShopNet.Web.csproj", "{5FE24A99-DD89-4EE7-B475-2CFD31435DF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FE24A99-DD89-4EE7-B475-2CFD31435DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE24A99-DD89-4EE7-B475-2CFD31435DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE24A99-DD89-4EE7-B475-2CFD31435DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE24A99-DD89-4EE7-B475-2CFD31435DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6643AB47-6554-4A76-8BB6-516FA7163055}
+	EndGlobalSection
+EndGlobal
